@@ -1,0 +1,167 @@
+/*style.css*/
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(happy.svg);
+	background-size:cover ;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	background-color: hsl(257, 40%, 49%);
+}
+
+main{
+	height:100vh;
+}
+
+h1{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+header{
+	height: 10vh;
+}
+
+#logo{
+    width: 150px;
+	height: 60px;
+	margin: 20px 0px -20px 80px ;
+}
+
+.flex{
+	margin
+    border: 1px solid red;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin:  0px 30px;
+	height: 80vh;
+}
+
+.flex-object1{
+    width: 55%;
+    height: 80%;
+	margin-top: 40px;
+}
+
+#layout{
+        width: 100%;
+        height: auto;
+}
+
+.flex-object2{
+    text-align: :left;
+	margin: 40px 10px 0px 10px;
+    width: 45%;
+}
+
+.flex-object2 h1{
+	margin: 0px 10px 15px 0px ;
+}
+
+button{
+	margin-top: 20px;
+	padding:  15px 30px;
+	border-radius: 30px;
+	border: none;
+	background-color: #fff;
+	color: #000;
+	box-shadow: rgba(100, 100, 111, 1) 0px 7px 29px 0px;
+}
+
+button:hover{
+	background-color:#DA70D6 ;
+	color: #fff;
+}
+.icon img{
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid white;
+	margin: 10px 30px 0px 0px;
+	padding: 3px;
+}
+.icon img:hover{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #DA70D6;
+}
+@media only screen and (max-width: 768px){
+	body{
+	background-image: url(bg-mobile.svg);
+	background-size:cover ;
+	background-repeat: no-repeat;
+	font-size: 13px;
+	color: #fff;
+}
+main{
+	height: 100vh;
+}
+	h1{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+header{
+	height: 10vh;
+}
+
+#logo{
+    width: 120px;
+	height: 40px;
+	margin: 10px 0px -20px 20px ;
+}
+
+.flex{
+	display: block;
+	
+}
+
+.flex-object1{
+	width: 100%;
+	margin-top: 0px;
+	margin-left: -5px;
+}
+
+#layout{
+        width: 100%;
+        height: auto;
+}
+
+.flex-object2{
+    text-align: :center;
+	margin-bottom: 0px;
+	line-height: :0;
+	width: 100%;
+	margin-top: -140px;
+	
+ }
+.flex-object2 h1,p{
+	margin:0px 6px;
+	padding: 6px;
+	text-align: :center;
+}
+#flex-mobile{
+	display: flex;
+	justify-content: center;
+}
+button{
+	padding:  10px 60px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.icon{
+	margin-top:-15px;
+	margin-right: 20px;
+}
+.icon img:hover{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #DA70D6;
+}
